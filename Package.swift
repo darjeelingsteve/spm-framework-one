@@ -16,7 +16,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "FrameworkOne",
-            url: "https://github.com/darjeelingsteve/spm-framework-one/releases/download/1.0.0/FrameworkOne.xcframework.zip",
-            checksum: "410900213a69c9b7bd0f9b42467391a9f6dd4b6f103747c8d8f4f39844400013"),
+            url: "https://github.com/darjeelingsteve/spm-framework-one/releases/download/1.0.1/FrameworkOne.xcframework.zip",
+            checksum: "9722bdaa6f9dedb0a5243e4e48c5e9675c5baa37f97f03f24f796adc67cb9ba6"),
     ]
 )

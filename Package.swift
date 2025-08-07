@@ -3,6 +3,9 @@
 
 import PackageDescription
 
+let frameworkURL = "https://github.com/darjeelingsteve/spm-framework-one/releases/download/1.0.2/FrameworkOne.xcframework.zip"
+let frameworkChecksum = "f8769caa3941746eb56b06babf8cc2cf9aba7ccc0b40dba619795a74112559e9"
+
 let package = Package(
     name: "FrameworkOne",
     products: [
@@ -16,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "FrameworkOne",
-            url: "https://github.com/darjeelingsteve/spm-framework-one/releases/download/1.0.1/FrameworkOne.xcframework.zip",
-            checksum: "9722bdaa6f9dedb0a5243e4e48c5e9675c5baa37f97f03f24f796adc67cb9ba6"),
+            url: frameworkURL,
+            checksum: frameworkChecksum),
     ]
 )

@@ -1,0 +1,21 @@
+name: Create Release
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      VERSION_NUMBER:
+        description: 'Version Number'
+        required: true
+
+jobs:
+  create-release:
+    uses: darjeelingsteve/ios-workflows/.github/workflows/create_release.yml@main
+    with:
+      FRAMEWORK_NAME: "FrameworkOne"
+      XCODE_PROJECT_NAME: "FrameworkOne"
+      SCHEME_NAME: "FrameworkOne"
+      VERSION_NUMBER: ${{ inputs.VERSION_NUMBER }}
+    secrets: inherit

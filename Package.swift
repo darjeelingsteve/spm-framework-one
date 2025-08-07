@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let frameworkURL = "https://github.com/darjeelingsteve/spm-framework-one/releases/download/1.0.2/FrameworkOne.xcframework.zip"
-let frameworkChecksum = "f8769caa3941746eb56b06babf8cc2cf9aba7ccc0b40dba619795a74112559e9"
+let frameworkURL = "https://github.com/darjeelingsteve/spm-framework-one/releases/download/1.0.3/FrameworkOne.xcframework.zip"
+let frameworkChecksum = "57828e72fc9e497d755c11d8f7b0acd15f5f075d31f892cc0d9118e1d8a171e6"
 
 let package = Package(
     name: "FrameworkOne",
